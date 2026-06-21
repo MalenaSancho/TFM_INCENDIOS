@@ -1,0 +1,23 @@
+# Manipulación de Datos y Matemáticas
+pandas
+numpy
+
+# Análisis Espacial y Multidimensional
+xarray
+netCDF4
+h5netcdf
+cftime
+geopandas
+shapely
+pyproj
+h5py
+
+# Descarga de Datos (Copernicus)
+cdsapi
+
+# Visualización de Datos (EDA)
+matplotlib
+seaborn
+
+# Machine Learning y Modelado
+scikit-learn
