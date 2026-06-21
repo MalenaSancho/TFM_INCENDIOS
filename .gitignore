@@ -1,8 +1,21 @@
+# 1. Ignorar carpetas del sistema y de entorno virtual
 .venv/
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
+.DS_Store
 
-DATOS/
+# 2. Ignorar los archivos pesados de datos (NetCDF y comprimidos)
+*.nc
+*.zip
+*.tar.gz
+
+# 3. Ignorar carpetas auxiliares de trabajo
 BIBLIOGRAFIA/
 PLANTILLA/
 TFM REFERENCIA/
+
+# 4. EXCEPCIÓN: ¡Permitir explícitamente la carpeta de datos, pero solo los CSV!
+# Git ignora todo lo que hay dentro de DATOS/ EXCEPTO los archivos .csv
+DATOS/*
+!DATOS/*.csv
